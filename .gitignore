@@ -1,0 +1,6 @@
+node_modules
+dist
+.playwright-mcp
+madere-home.png
+.DS_Store
+*.local
