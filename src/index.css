@@ -395,30 +395,6 @@ body {
   background: rgba(45, 212, 191, 0.18); color: var(--accent); font-weight: 900;
 }
 
-/* Budget */
-.budget-total { display: flex; align-items: baseline; justify-content: space-between; }
-.budget-num { font-size: 30px; font-weight: 800; letter-spacing: -0.02em; }
-.budget-num[data-over='true'] { color: var(--urgent); }
-.budget-target { font-size: 12px; color: var(--muted); }
-.bar { height: 9px; background: var(--bg-3); border-radius: 999px; overflow: hidden; margin: 10px 0 6px; }
-.bar-fill { height: 100%; border-radius: 999px; transition: width 0.3s; }
-.margin { font-size: 12.5px; color: var(--accent); font-weight: 600; }
-.margin.neg { color: var(--urgent); }
-.budget-list { margin-top: 14px; }
-.budget-row {
-  display: flex; align-items: center; justify-content: space-between; gap: 10px;
-  padding: 9px 0; border-top: 1px solid var(--border); font-size: 13.5px;
-}
-.budget-input { display: inline-flex; align-items: center; gap: 3px; }
-.budget-input input {
-  width: 78px; text-align: right;
-  background: var(--bg); color: var(--text);
-  border: 1px solid var(--border); border-radius: 9px;
-  padding: 6px 8px; font: inherit; font-size: 14px; font-weight: 700;
-}
-.budget-input input:focus { outline: 2px solid var(--accent); border-color: transparent; }
-.eur { color: var(--muted); }
-
 .weather-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .weather-chip {
   display: block; text-align: center;

@@ -4,7 +4,6 @@ export const meta = {
   dateRange: '30 mai → 6 juin 2026',
   start: '2026-05-30',
   end: '2026-06-06',
-  budget: { min: 2500, max: 2700, note: 'pour 2, hors vol' },
 }
 
 export const categoryMeta = {
@@ -387,18 +386,6 @@ export const apps = [
   { name: 'Windy', why: 'météo par zone' },
   { name: 'Google Maps hors-ligne', why: 'navigation sans réseau' },
   { name: 'Bolt', why: 'taxis' },
-]
-
-export const budgetItems = [
-  { label: 'Voiture (location + assurance)', amount: 540 },
-  { label: 'Hôtels x3 (estimation)', amount: 800 },
-  { label: 'Canyoning (2 pers)', amount: 130 },
-  { label: 'Croisière (2 pers)', amount: 80 },
-  { label: 'Permis SIMplifica', amount: 9 },
-  { label: 'Activités (Monte, Cabo Girão, téléphériques)', amount: 110 },
-  { label: 'Essence + parkings', amount: 100 },
-  { label: 'Repas (7 jours)', amount: 420 },
-  { label: 'Sorties / fête', amount: 200 },
 ]
 
 export const weatherZones = [

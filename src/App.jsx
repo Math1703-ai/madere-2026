@@ -2,13 +2,13 @@ import { meta, days } from './data/trip.js'
 import DayCard from './components/DayCard.jsx'
 import TripMap from './components/TripMap.jsx'
 import Checklist from './components/Checklist.jsx'
-import Budget from './components/Budget.jsx'
+import Infos from './components/Infos.jsx'
 
 const sections = [
   { id: 'programme', label: 'Programme', icon: '📅' },
   { id: 'carte', label: 'Carte', icon: '🗺️' },
   { id: 'checklist', label: 'Checklist', icon: '✓' },
-  { id: 'budget', label: 'Budget', icon: '💶' },
+  { id: 'infos', label: 'Infos', icon: '🌦️' },
 ]
 
 export default function App() {
@@ -50,9 +50,9 @@ export default function App() {
           <Checklist />
         </section>
 
-        <section id="budget" className="section">
-          <h2 className="section-title">💶 Budget & infos</h2>
-          <Budget />
+        <section id="infos" className="section">
+          <h2 className="section-title">🌦️ Météo & conseils</h2>
+          <Infos />
         </section>
       </main>
 
